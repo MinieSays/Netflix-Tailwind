@@ -2,10 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+*::-webkit-scrollbar {
+  display: none;
+}
+
 /* HTML, BODY, HEADING, H1, H2, H3 */
 @layer base {
   body {
-    @apply bg-[#141414] text-white !scrollbar !scrollbar-thumb-red-600
+    @apply bg-[#141414] text-white
 
   }
 
